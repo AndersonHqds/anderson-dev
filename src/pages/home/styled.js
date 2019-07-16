@@ -48,5 +48,6 @@ export const AboutMeContainer = styled.div`
     width: 50%;
     flex-direction: column;
     align-items: center;
-    font-family: 'roboto'
+    font-family: 'roboto';
+    color: #FFF;
 `
