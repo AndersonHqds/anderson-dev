@@ -8,8 +8,8 @@ import Home from './pages/home'
 
 ReactDOM.render(
     <BrowserRouter>
-        <Switch>
-            <Header />
+        <Header />
+        <Switch>       
             <Route exact path="/" component={Home} />
         </Switch>
     </BrowserRouter>, 
