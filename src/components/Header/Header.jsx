@@ -14,6 +14,7 @@ const Header = () => {
                 </Logo>
                 <Navigation>
                     <a className="navigation" href="#portfolio">Portfolio</a>
+                    <a className="navigation" href="#portfolio">Sobre Mim</a>
                     <a className="navigation" href="#contact">Contato</a>
                 </Navigation>  
             </Wrapper>  

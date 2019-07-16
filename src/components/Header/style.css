@@ -1,2 +1,19 @@
 a { padding: 0 5px; }
-.navigation { color: #FFF; padding: 0 20px; }
+.navigation { color: #FFF; padding: 0 20px;display: inline-block; text-decoration: none; }
+li {
+    margin-bottom: 10px;
+}
+
+.navigation::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #FFF;
+    transition: width .3s;
+}
+
+.navigation:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
