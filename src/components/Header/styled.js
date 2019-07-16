@@ -21,5 +21,12 @@ export const Logo = styled.div`
 
 export const Navigation = styled.div`
     width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    min-height: 35px;
+    height: 100%;
+    color: #FFF;
 `
 
