@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/anderson-dev/static/css/main.763f8e15.chunk.css",
+    "main.js": "/anderson-dev/static/js/main.9b56dc11.chunk.js",
+    "main.js.map": "/anderson-dev/static/js/main.9b56dc11.chunk.js.map",
+    "runtime~main.js": "/anderson-dev/static/js/runtime~main.15e65098.js",
+    "runtime~main.js.map": "/anderson-dev/static/js/runtime~main.15e65098.js.map",
+    "static/css/2.a5ff77e9.chunk.css": "/anderson-dev/static/css/2.a5ff77e9.chunk.css",
+    "static/js/2.1666b250.chunk.js": "/anderson-dev/static/js/2.1666b250.chunk.js",
+    "static/js/2.1666b250.chunk.js.map": "/anderson-dev/static/js/2.1666b250.chunk.js.map",
+    "index.html": "/anderson-dev/index.html",
+    "precache-manifest.400b41127dbb5b354026493ac0a09bb7.js": "/anderson-dev/precache-manifest.400b41127dbb5b354026493ac0a09bb7.js",
+    "service-worker.js": "/anderson-dev/service-worker.js",
+    "static/css/2.a5ff77e9.chunk.css.map": "/anderson-dev/static/css/2.a5ff77e9.chunk.css.map",
+    "static/css/main.763f8e15.chunk.css.map": "/anderson-dev/static/css/main.763f8e15.chunk.css.map",
+    "static/media/index.css": "/anderson-dev/static/media/roboto-latin-900italic.bc833e72.woff",
+    "static/media/logo.png": "/anderson-dev/static/media/logo.e986ba68.png"
+  }
+}
