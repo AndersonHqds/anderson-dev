@@ -12,7 +12,8 @@
     "react-scrollable-anchor": "^0.6.1",
     "styled-components": "^4.3.2",
     "typeface-lobster": "0.0.72",
-    "typeface-notable": "0.0.63"
+    "typeface-notable": "0.0.63",
+    "typeface-roboto": "0.0.54"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,20 +1,22 @@
 import styled from 'styled-components';
 import 'typeface-notable'
 import 'typeface-lobster'
+import 'typeface-roboto'
 
 export const Container = styled.div`
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
+    align-items: center;
 `
 
-export const NinjaContainer = styled.div`
+export const LottieContainer = styled.div`
     display: flex;
     justify-content: flex-start;
     align-items: center;
     width: 50%;
-    height: ${ window.screen.height - 80 }px
+    height: ${ props => props.height ? props.height :  window.screen.height - 80 }px
 `;
 
 export const AndersonContainer = styled.div`
@@ -32,7 +34,7 @@ export const Title = styled.h1`
     font-size: 3em;
 `
 
-export const IntroSection = styled.section`
+export const Section = styled.section`
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -40,3 +42,11 @@ export const IntroSection = styled.section`
 `
 
 export const Icons = styled.div``
+
+export const AboutMeContainer = styled.div`
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'roboto'
+`
