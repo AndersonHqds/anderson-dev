@@ -1,53 +1,58 @@
 import React from 'react';
-import { CircularProgressbarWithChildren, buildStyles } from 'react-circular-progressbar'
 import { FaNodeJs, FaPhp, FaWordpress, FaCss3Alt } from 'react-icons/fa'
 import { ProgressBar } from './styled'
+import CircularBar from './CircularBar'
 
-const SkillProgress = () => {
+
+const SkillProgress = (props) => {
     
     const percentageJavascript = 90
     const percentagePHP = 80
     const percentageWordpress = 75
     const percentageCss = 85
     const titleWhite = { color: "#FFF"}
-    
+    const { isAnimated } = props
     return (
         <>
             <ProgressBar>
-                <CircularProgressbarWithChildren styles={buildStyles({ trailColor: "#937fd4", pathColor: "white"  })} value={percentageJavascript}>
-                    <FaNodeJs color="green" style={{ fontSize: 40 }}/>
-                    <div style={{ ...titleWhite, fontSize: 18, textAlign: "center" }}>
-                        <div><strong>Javascript</strong></div>
-                        <strong>{percentageJavascript}%</strong>
-                    </div>
-                </CircularProgressbarWithChildren>
+                <CircularBar 
+                    percentage={percentageJavascript} 
+                    iconColor="green" 
+                    titleColor={titleWhite} 
+                    Icon={FaNodeJs} 
+                    isAnimated={isAnimated}
+                    type="Javascript"
+                />
             </ProgressBar>
             <ProgressBar>
-                <CircularProgressbarWithChildren styles={buildStyles({ trailColor: "#937fd4", pathColor: "white"  })} value={percentageCss}>
-                    <FaCss3Alt color="orange" style={{ fontSize: 40 }}/>
-                    <div style={{ ...titleWhite, fontSize: 18, textAlign: "center" }}>
-                        <div><strong>CSS</strong></div>    
-                        <strong>{percentageCss}%</strong>
-                    </div>
-                </CircularProgressbarWithChildren>
+                <CircularBar 
+                    percentage={percentageCss} 
+                    iconColor="orange" 
+                    titleColor={titleWhite} 
+                    Icon={FaCss3Alt} 
+                    isAnimated={isAnimated}
+                    type="CSS"
+                />
             </ProgressBar>
             <ProgressBar>
-                <CircularProgressbarWithChildren styles={buildStyles({ trailColor: "#937fd4", pathColor: "white"  })} value={percentagePHP}>
-                    <FaPhp color="white" style={{ fontSize: 40 }}/>
-                    <div style={{ ...titleWhite, fontSize: 18, textAlign: "center" }}>
-                        <div><strong>PHP</strong></div>
-                        <strong>{percentagePHP}%</strong>            
-                    </div>
-                </CircularProgressbarWithChildren>
+                <CircularBar 
+                    percentage={percentagePHP} 
+                    iconColor="white" 
+                    titleColor={titleWhite} 
+                    Icon={FaPhp} 
+                    isAnimated={isAnimated}
+                    type="PHP"
+                />
             </ProgressBar>
             <ProgressBar>
-                <CircularProgressbarWithChildren styles={buildStyles({ trailColor: "#937fd4", pathColor: "white"  })} value={percentageWordpress}>
-                    <FaWordpress style={{ fontSize: 40 }}/>
-                    <div style={{ ...titleWhite, fontSize: 18, textAlign: "center" }}>
-                        <div><strong>Wordpress</strong></div>
-                        <strong>{percentageWordpress}%</strong>
-                    </div>
-                </CircularProgressbarWithChildren>
+                <CircularBar 
+                    percentage={percentageWordpress} 
+                    iconColor="black" 
+                    titleColor={titleWhite} 
+                    Icon={FaWordpress} 
+                    isAnimated
+                    type="Wordpress"
+                />
             </ProgressBar>
         </>
     );
