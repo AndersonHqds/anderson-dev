@@ -15,3 +15,8 @@ code {
 a, a:hover {
   text-decoration: none;
 }
+
+p { font-size: 1.1em; }
+.cursos-container div, .qualificacao-container div { width: 100%; }
+.cursos-container span, .qualificacao-container span { margin-left: 5px; font-size: 1.3em; font-family: "Roboto"}
+

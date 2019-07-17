@@ -7,7 +7,7 @@ import Header from './components/Header/Header.jsx'
 import Home from './pages/home'
 
 ReactDOM.render(
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Header />
         <Switch>       
             <Route exact path="/" component={Home} />

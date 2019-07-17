@@ -16,13 +16,13 @@ export const LottieContainer = styled.div`
     justify-content: flex-start;
     align-items: center;
     width: 50%;
-    height: ${ props => props.height ? props.height :  window.screen.height - 80 }px
+    height: ${ props => props.height ? props.height :  window.screen.height - 190 }px
 `;
 
 export const AndersonContainer = styled.div`
     width: 50%;
     color: rgb(75, 75, 75);
-    font-family: 'Notable';
+    font-family: 'lobster';
     font-size: 2em;
     display: flex;
     flex-direction: column;
@@ -50,4 +50,12 @@ export const AboutMeContainer = styled.div`
     align-items: center;
     font-family: 'roboto';
     color: #FFF;
+`
+
+export const HalfContainer = styled.div`
+    width: 50%;
+    display: flex;
+    flex-direction: ${ props => props.direction ? props.direction : 'row' }
+    justify-content: ${ props => props.direction === "row" ? "center" : "flex-start" };
+    align-items: center;
 `
