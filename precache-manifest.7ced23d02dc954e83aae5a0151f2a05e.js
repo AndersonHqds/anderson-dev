@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1119c527b07ec884e6df7be97b1912c4",
+    "revision": "aee1c0314871fc3f8c8686bdd91db027",
     "url": "/anderson-dev/index.html"
   },
   {
-    "revision": "082d585dbbb1d0b2fe05",
-    "url": "/anderson-dev/static/css/2.cdf3ce75.chunk.css"
+    "revision": "b375111dc94606f45cf9",
+    "url": "/anderson-dev/static/css/2.fba9cf37.chunk.css"
   },
   {
-    "revision": "e1a6b3059b851e490dd7",
-    "url": "/anderson-dev/static/css/main.06ddf4c9.chunk.css"
+    "revision": "ec28b7d31f4f18945a32",
+    "url": "/anderson-dev/static/css/main.ab53194a.chunk.css"
   },
   {
-    "revision": "082d585dbbb1d0b2fe05",
-    "url": "/anderson-dev/static/js/2.bd6b3d34.chunk.js"
+    "revision": "b375111dc94606f45cf9",
+    "url": "/anderson-dev/static/js/2.3c1204fe.chunk.js"
   },
   {
-    "revision": "e1a6b3059b851e490dd7",
-    "url": "/anderson-dev/static/js/main.96d617f2.chunk.js"
+    "revision": "ec28b7d31f4f18945a32",
+    "url": "/anderson-dev/static/js/main.6894080f.chunk.js"
   },
   {
     "revision": "af90e579556040555df6",
     "url": "/anderson-dev/static/js/runtime~main.15e65098.js"
+  },
+  {
+    "revision": "af0c960527a1e01de95cab4b4c1a99b1",
+    "url": "/anderson-dev/static/media/anderson.af0c9605.jpeg"
   },
   {
     "revision": "02bba601716f9a0ff1e241a64cfe9b29",
