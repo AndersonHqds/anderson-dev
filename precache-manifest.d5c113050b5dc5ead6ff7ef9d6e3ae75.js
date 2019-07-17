@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "108e8c6c8d90566d4e58304e79a9f9f3",
+    "revision": "f9e3123a9083fe89234cebbab228c19a",
     "url": "/anderson-dev/index.html"
   },
   {
-    "revision": "95310824320a5b242417",
-    "url": "/anderson-dev/static/css/2.ba961cd0.chunk.css"
+    "revision": "d589604cb6cbdb5784e6",
+    "url": "/anderson-dev/static/css/2.fba9cf37.chunk.css"
   },
   {
-    "revision": "3b2acf5373877dca5030",
-    "url": "/anderson-dev/static/css/main.b6b76276.chunk.css"
+    "revision": "ec7d72d31af5dfa688d2",
+    "url": "/anderson-dev/static/css/main.9c296d1e.chunk.css"
   },
   {
-    "revision": "95310824320a5b242417",
-    "url": "/anderson-dev/static/js/2.0c2c0662.chunk.js"
+    "revision": "d589604cb6cbdb5784e6",
+    "url": "/anderson-dev/static/js/2.72a3b8f7.chunk.js"
   },
   {
-    "revision": "3b2acf5373877dca5030",
-    "url": "/anderson-dev/static/js/main.517d2e4a.chunk.js"
+    "revision": "ec7d72d31af5dfa688d2",
+    "url": "/anderson-dev/static/js/main.73f5c32b.chunk.js"
   },
   {
     "revision": "af90e579556040555df6",
@@ -26,6 +26,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "af0c960527a1e01de95cab4b4c1a99b1",
     "url": "/anderson-dev/static/media/anderson.af0c9605.jpeg"
+  },
+  {
+    "revision": "d5c6ea0a778205b47a90b5858f8bae6b",
+    "url": "/anderson-dev/static/media/audit.d5c6ea0a.png"
+  },
+  {
+    "revision": "564364f78c5fadae8949b2089972635b",
+    "url": "/anderson-dev/static/media/cheapremovals.564364f7.png"
+  },
+  {
+    "revision": "1907eb1db41b1eba967edb81f01b8ea9",
+    "url": "/anderson-dev/static/media/daune.1907eb1d.png"
+  },
+  {
+    "revision": "c8f5a06cdc09ce768adfff9d3020ff96",
+    "url": "/anderson-dev/static/media/geek.c8f5a06c.png"
   },
   {
     "revision": "02bba601716f9a0ff1e241a64cfe9b29",
