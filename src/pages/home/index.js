@@ -2,13 +2,17 @@ import React from 'react';
 import Lottie from '../../components/Lottie/Lottie'
 import { LottieContainer, AndersonContainer, Container, Section, Title, Icons, AboutMeContainer, HalfContainer  } from './styled'
 import Wrapper from '../../components/Wrapper/Wrapper'
-import { FaLinkedin, FaGithub, FaYoutube, FaStackOverflow, FaCheckCircle, FaBook } from 'react-icons/fa'
+import CircleProgress from '../../components/SkillProgress/SkillProgress'
+import { Courses, Qualifications } from '../../components/Courses/Courses'
+import { FaLinkedin, FaGithub, FaYoutube, FaStackOverflow } from 'react-icons/fa'
+
+
+import 'react-circular-progressbar/dist/styles.css'
 
 const Home = () => {
 
     const simpleSection = { height: '500px', padding: '50px 0', overflow: 'hidden' }
-    const checkColor = 'rgb(113, 89, 193)'
-    const titleGray = { color: 'rgb(75, 75, 75)' }
+    const titleWhite = { color: '#FFF' }
     return (
         <Container>
             <Wrapper>
@@ -35,7 +39,7 @@ const Home = () => {
                         <Lottie animation={require('../../assets/lottie/3018-man-and-chat.json')}/>
                     </LottieContainer>
                     <AboutMeContainer>
-                        <Title style={{ color: '#FFF' }}>Sobre Mim</Title>
+                        <Title style={titleWhite}>Sobre Mim</Title>
                         <p>Desenvolvedor web e mobile, iniciei a carreira trabalhando com PHP, Wordpress, desde criação de temas e plugins
                             até criação de sistemas webs com PHP puro. Também já desenvolvi projetos utilizando Python para gerênciar catracas de segurança.
                             Experiência com desenvolvimento para empresas do exterior, na região de Londres. Amante de programação e ativo na comunidade em eventos
@@ -46,32 +50,28 @@ const Home = () => {
                 </Wrapper>
             </Section>
             <Section style={{ ...simpleSection, background: '#FFF' }}>
-            <Wrapper>
+                <Wrapper>
                     <HalfContainer direction="column" className="cursos-container">
-                        <Title style={titleGray}>Cursos</Title>
-                        <div><FaCheckCircle color={checkColor}/><span>Web moderno com Javascript</span></div>
-                        <div><FaCheckCircle color={checkColor}/><span>Typescript - Evoluindo seu Javascript</span></div>
-                        <div><FaCheckCircle color={checkColor}/><span>Descomplicando o css - SASS e Compass</span></div>
-                        <div><FaCheckCircle color={checkColor}/><span>De padrões a uma abordagem funcional - Javascript</span></div>
-                        <div><FaCheckCircle color={checkColor}/><span>Criando progressive web apps - Crie apps offline</span></div>
-                        <div><FaCheckCircle color={checkColor}/><span>Fundamentos da inteligência artificial</span></div>
-                        <div><FaCheckCircle color={checkColor}/><span>Machine learning - Introdução aos algoritmos não supervisionado</span></div>
-                        <div><FaCheckCircle color={checkColor}/><span>Machine learning - Sistemas de recomendação</span></div>
-                        <div><FaCheckCircle color={checkColor}/><span>Machine learning - Classificação por trás dos panos</span></div>
-                        <div><FaCheckCircle color={checkColor}/><span>Linguagem natural - Introdução ao NLP com análise de sentimentos</span></div>
-                        <div><FaCheckCircle color={checkColor}/><span>Deep learning - Introdução ao Keras para reconhecimento de imagens</span></div>
-                        <div><FaCheckCircle color={checkColor}/><span>Fundamentos da inteligência artificial</span></div>
-                        <div><FaCheckCircle color={checkColor}/><span>Cursando English Live</span></div>
+                        <Courses />
                     </HalfContainer>
                     <HalfContainer direction="column" className="qualificacao-container">
-                        <Title style={titleGray}>Qualificações</Title>
-                        <div><FaBook color={checkColor} /><span>Certificação Cisco - CCNA 1</span></div>
-                        <div><FaBook color={checkColor} /><span>Certificação Cisco - CCNA 2</span></div>
-                        <div><FaBook color={checkColor} /><span>Certificação Cisco - CCNA 3</span></div>
-                        <div><FaBook color={checkColor} /><span>Certificação TOEFL</span></div>
-                        <div><FaBook color={checkColor} /><span>Certificação TOEIC</span></div>
-                        <div><FaBook color={checkColor} /><span>Vencedor da maratona de programação da Fatec Americana</span></div>
-                        <div><FaBook color={checkColor} /><span>Classificação para a maratona da SBC</span></div>
+                        <Qualifications />
+                    </HalfContainer>
+                </Wrapper>
+            </Section>
+            <Section style={{ ...simpleSection, background: 'rgb(113, 89, 193)' }}>
+                <Wrapper>
+                    <HalfContainer width="40%" direction="column">
+                        <Title style={titleWhite}>Anderson Henrique</Title>
+                        <div>
+                            <img style={{ borderRadius: '200px', height: '200px', width: '200px' }} src={ require('../../assets/imgs/anderson.jpeg') } alt="AndersonDev" />
+                        </div>
+                    </HalfContainer>
+                    <HalfContainer width="60%" direction="column">
+                        <Title style={titleWhite}>Linguagens</Title>
+                        <HalfContainer width="100%" justify="space-around">
+                            <CircleProgress />
+                        </HalfContainer>
                     </HalfContainer>
                 </Wrapper>
             </Section>    

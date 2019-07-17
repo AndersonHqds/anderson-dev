@@ -53,9 +53,16 @@ export const AboutMeContainer = styled.div`
 `
 
 export const HalfContainer = styled.div`
-    width: 50%;
+    width: ${ props => props.width ? props.width : "50%" };
     display: flex;
     flex-direction: ${ props => props.direction ? props.direction : 'row' }
-    justify-content: ${ props => props.direction === "row" ? "center" : "flex-start" };
+    justify-content: ${ props => props.justify ? props.justify : props.direction === "row" ? "center" : "flex-start" };
     align-items: center;
+`
+
+export const DisplayFlex = styled.div
+
+export const ProgressBar = styled.div`
+    width: ${ props => props.width ? props.width : "150px" }
+    height: ${ props => props.height ? props.height : "150px" }
 `
