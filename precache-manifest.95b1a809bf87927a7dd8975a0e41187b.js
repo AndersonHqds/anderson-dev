@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9c38fb7b5675cb3dc582db0a14b9757c",
+    "revision": "5b06b5e0a1f5a65f6bc7a2345a4d0ee8",
     "url": "/anderson-dev/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/anderson-dev/static/css/2.a5ff77e9.chunk.css"
   },
   {
-    "revision": "8d0dea3e449b41c3e1c4",
+    "revision": "be8fe8aafdf6bdbd51c9",
     "url": "/anderson-dev/static/css/main.763f8e15.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/anderson-dev/static/js/2.1666b250.chunk.js"
   },
   {
-    "revision": "8d0dea3e449b41c3e1c4",
-    "url": "/anderson-dev/static/js/main.9b56dc11.chunk.js"
+    "revision": "be8fe8aafdf6bdbd51c9",
+    "url": "/anderson-dev/static/js/main.cb4fbdae.chunk.js"
   },
   {
     "revision": "af90e579556040555df6",
