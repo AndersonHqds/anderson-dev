@@ -3,7 +3,7 @@ import React from 'react';
 import { Container } from './styled';
 
 const Wrapper = (props) => 
-    <Container>
+    <Container style={props.style}>
         { props.children } 
     </Container>
 ;

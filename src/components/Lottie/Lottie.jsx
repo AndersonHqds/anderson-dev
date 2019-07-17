@@ -17,7 +17,11 @@ const LottieAnimation = (props) => {
           <Lottie options={ defaultOptions }
             height={400}
             width={400}
-            margin={0} />  
+            margin={0}
+            isPaused={false}
+            isStopped={false}
+            isClickToPauseDisabled={true}
+             />  
         </>
     );
 };
