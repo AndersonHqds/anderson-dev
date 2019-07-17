@@ -66,3 +66,13 @@ export const ProgressBar = styled.div`
     width: ${ props => props.width ? props.width : "150px" }
     height: ${ props => props.height ? props.height : "150px" }
 `
+
+export const Row = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+`
