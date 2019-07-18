@@ -1,9 +1,17 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Container, Logo, Navigation } from './styled'
 import Wrapper from '../Wrapper/Wrapper.jsx'
+import SwitchButton from '../SwitchButton/SwitchButton'
+
 import './style.css'
 
-const Header = () => {
+const Header = (props) => {
+
+    const [ switchIsChecked, handleSwitch ] = useState(false)
+
+    useEffect(() => {
+        props.handleSwitch(switchIsChecked)
+    }, [switchIsChecked])
 
     return (
         <Container>
@@ -13,10 +21,11 @@ const Header = () => {
                     <span style={{fontWeight: 'bold'}}>AndersonDev</span>
                 </Logo>
                 <Navigation>
-                    <a className="navigation" href="#aboutme">Sobre Mim</a>
-                    <a className="navigation" href="#qualifications">Qualificações</a>
-                    <a className="navigation" href="#languages">Linguagens</a>
-                    <a className="navigation" href="#portfolio">Portfolio</a>                             
+                    <a className="navigation" href="#aboutme">{ switchIsChecked ? "About Me" : "Sobre Mim" }</a>
+                    <a className="navigation" href="#qualifications">{ switchIsChecked ? "Qualifications" : "Qualificações" }</a>
+                    <a className="navigation" href="#languages">{ switchIsChecked ? "Languages" : "Linguagens" }</a>
+                    <a className="navigation" href="#portfolio">Portfolio</a>
+                    <SwitchButton switchIsChecked={switchIsChecked} handleSwitch={ () => handleSwitch(!switchIsChecked) }/>                             
                 </Navigation>  
             </Wrapper>  
         </Container>

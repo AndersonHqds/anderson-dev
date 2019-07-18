@@ -2,11 +2,12 @@ import React from 'react';
 import { Footer } from './styled'
 import Wrapper from '../Wrapper/Wrapper'
 
-const FooterContainer = () => {
+const FooterContainer = (props) => {
+    const { switchIsChecked } = props
     return (
         <Footer>
             <Wrapper>
-                <span>Desenvolvido por <b>AndersonDev</b></span>
+                <span>{ switchIsChecked ? "Developed by" : "Desenvolvido por" }<b>AndersonDev</b></span>
             </Wrapper>
         </Footer>
     );
