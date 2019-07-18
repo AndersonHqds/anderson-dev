@@ -38,6 +38,7 @@ export const Section = styled.section`
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
     width: 100%;
 `
 
@@ -75,4 +76,5 @@ export const Row = styled.div`
     width: 100%;
     height: auto;
     flex-wrap: wrap;
+    padding: 20px 0;
 `
