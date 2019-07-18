@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c6fda7214c27ae654b2a892e2c02b422",
+    "revision": "e52360b4cfd240288ddd234df1c946c0",
     "url": "/anderson-dev/index.html"
   },
   {
-    "revision": "9826db08de65d9fee992",
+    "revision": "ac18364934bf46713512",
     "url": "/anderson-dev/static/css/2.8af77424.chunk.css"
   },
   {
-    "revision": "e05e61764c21c24e9dd3",
+    "revision": "f10fb9c7374e9cb69736",
     "url": "/anderson-dev/static/css/main.9c296d1e.chunk.css"
   },
   {
-    "revision": "9826db08de65d9fee992",
-    "url": "/anderson-dev/static/js/2.623bfd75.chunk.js"
+    "revision": "ac18364934bf46713512",
+    "url": "/anderson-dev/static/js/2.7b09b5d1.chunk.js"
   },
   {
-    "revision": "e05e61764c21c24e9dd3",
-    "url": "/anderson-dev/static/js/main.36d97cdf.chunk.js"
+    "revision": "f10fb9c7374e9cb69736",
+    "url": "/anderson-dev/static/js/main.d22a3e0d.chunk.js"
   },
   {
     "revision": "af90e579556040555df6",
@@ -40,8 +40,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/anderson-dev/static/media/daune.1907eb1d.png"
   },
   {
+    "revision": "3a7425de23604fc6070e406753fddc3b",
+    "url": "/anderson-dev/static/media/devanderson.3a7425de.png"
+  },
+  {
     "revision": "c8f5a06cdc09ce768adfff9d3020ff96",
     "url": "/anderson-dev/static/media/geek.c8f5a06c.png"
+  },
+  {
+    "revision": "18ff672294fd9552e2da78c88bab3240",
+    "url": "/anderson-dev/static/media/housecode.18ff6722.png"
   },
   {
     "revision": "02bba601716f9a0ff1e241a64cfe9b29",
@@ -158,5 +166,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "bc833e725c137257c2c42a789845d82f",
     "url": "/anderson-dev/static/media/roboto-latin-900italic.bc833e72.woff"
+  },
+  {
+    "revision": "2b078721279342a8b5251ead35058525",
+    "url": "/anderson-dev/static/media/smarthome.2b078721.png"
+  },
+  {
+    "revision": "eafd11ad4d1fb891518b0988a005cec4",
+    "url": "/anderson-dev/static/media/westone.eafd11ad.png"
   }
 ]);
