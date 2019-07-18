@@ -13,9 +13,10 @@ const Header = () => {
                     <span style={{fontWeight: 'bold'}}>AndersonDev</span>
                 </Logo>
                 <Navigation>
-                    <a className="navigation" href="#portfolio">Portfolio</a>
-                    <a className="navigation" href="#portfolio">Sobre Mim</a>
-                    <a className="navigation" href="#contact">Contato</a>
+                    <a className="navigation" href="#aboutme">Sobre Mim</a>
+                    <a className="navigation" href="#qualifications">Qualificações</a>
+                    <a className="navigation" href="#languages">Linguagens</a>
+                    <a className="navigation" href="#portfolio">Portfolio</a>                             
                 </Navigation>  
             </Wrapper>  
         </Container>
