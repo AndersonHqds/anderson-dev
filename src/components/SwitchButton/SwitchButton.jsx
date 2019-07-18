@@ -45,7 +45,7 @@ const SwitchButton = (props) => {
 
     return (
         <Typography component="div">
-            <Grid component="label" container alignItems="center" spacing={1}>|
+            <Grid component="label" container alignItems="center" spacing={1}>{ !props.removePipeChar && "|" }
                 <Grid item style={{padding: '0 0 0 20px'}}>PT</Grid>
                 <Grid item>
                 <AntSwitch
