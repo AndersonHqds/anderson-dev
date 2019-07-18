@@ -15,8 +15,8 @@ const LottieAnimation = (props) => {
     return (
         <>
           <Lottie options={ defaultOptions }
-            height={400}
-            width={400}
+            height={360}
+            width={360}
             margin={0}
             isPaused={false}
             isStopped={false}

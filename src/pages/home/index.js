@@ -42,7 +42,7 @@ const Home = (props) => {
     return (
         <Container>
             <Wrapper>
-                <Section>
+                <Section reverse={true}>
                     <LottieContainer>
                         <Lottie animation={require('../../assets/lottie/6936-class-ninjas-floating-ninja.json')}/>
                     </LottieContainer>
@@ -62,13 +62,13 @@ const Home = (props) => {
             </Wrapper>
             <ScrollableAnchor id={'aboutme'}>
                 <Section style={{ ...simpleSection, background: 'rgb(113, 89, 193)' }}>
-                    <Wrapper>
+                    <Wrapper reverse={true}>
                         <LottieContainer style={{ alignItems: 'flex-start' }}>
                             <Lottie animation={require('../../assets/lottie/3018-man-and-chat.json')}/>
                         </LottieContainer>
                         <AboutMeContainer>
                             <Title style={titleWhite}>{ switchIsChecked ? "About Me" : "Sobre Mim"}</Title>
-                            <p>{ 
+                            <p id="aboutme-paragraph">{ 
                                 switchIsChecked ? 
                                 `Web and mobile developer, I started the career working with PHP, Wordpress, since theme creation and plugins
                                 to creating web systems with pure PHP. I have also developed projects using Python to manage security turnstiles.
