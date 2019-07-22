@@ -127,4 +127,6 @@ body {
   .cursos-container, .qualificacao-container { width: 100% !important;}
   .cursos-container div, .qualificacao-container div { width: 90%;}
   #aboutme-paragraph { text-align: justify; }
+  .navigation { padding: 0 !important; display: block !important; }
+  .MuiGrid-container div:first-child { padding: 0 !important; margin-left: 0 !important; }
 }

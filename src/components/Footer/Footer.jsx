@@ -7,7 +7,7 @@ const FooterContainer = (props) => {
     return (
         <Footer>
             <Wrapper>
-                <span>{ switchIsChecked ? "Developed by" : "Desenvolvido por" }<b>AndersonDev</b></span>
+                <span>{ switchIsChecked ? "Developed by " : "Desenvolvido por " }<b>AndersonDev</b></span>
             </Wrapper>
         </Footer>
     );
