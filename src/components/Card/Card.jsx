@@ -38,7 +38,7 @@ const useStyles = makeStyles(theme => ({
 export default function RecipeReviewCard(props) {
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
-  const { image, imageTitle, title, shortDescription, description, link } = props
+  const { image, imageTitle, title, shortDescription, description, link, switchIsChecked } = props
   function handleExpandClick() {
     setExpanded(!expanded);
   }
@@ -75,7 +75,7 @@ export default function RecipeReviewCard(props) {
       </CardActions>
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
-          <Typography paragraph>Atividades:</Typography>
+          <Typography paragraph>{ switchIsChecked ? "Features:" : "Atividades:" }</Typography>
           <Typography paragraph>
             { description }
           </Typography>
